@@ -34,7 +34,7 @@ def cvImageFromUrl(url):
 
 '''
     test code 
-'''
+
 
 def main():
     image = \
@@ -44,3 +44,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
