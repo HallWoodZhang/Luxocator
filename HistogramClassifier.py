@@ -99,4 +99,22 @@ class HistogramClassifier(object):
                 # Unwrap the data.
                 self._references[key] = val[0]
 
-    
+
+
+def main():
+    classifier = HistogramClassifier()
+    classifier.verbose = True
+    classifier.addReferenceFromFile('./images/communal_apartments_01.jpg', 'Stalinist, interior')
+    ###
+    ###
+    ###
+    ###
+    classifier.serialize('classifier.mat')
+    classifier.deserialize('classifier.mat')
+    classifier.classfyFromFile('./images/dubai_damac_heights.jpg')
+    classifier.classfyFromFile('./images/communal_apartments_01.jpg')
+
+
+
+if __name__ == '__main__':
+    main()
