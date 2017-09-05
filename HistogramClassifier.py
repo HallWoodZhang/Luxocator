@@ -47,7 +47,7 @@ class HistogramClassifier(object):
         self.addReference(image, label)
 
     # public
-    def classfy(self, queryImage, queryImageName = None):
+    def classify(self, queryImage, queryImageName = None):
         queryHist = self._createNomalizedHist(queryImage, False)
         bestLabel = 'Unknown'
         bestSimilarity = self.minimumSimilarityForPositiveLabel
