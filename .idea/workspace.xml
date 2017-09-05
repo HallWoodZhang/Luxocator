@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7ea1067-baf6-4df5-90d4-578dac9c5390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ans/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyBingSearchAPI-master.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageSearchSession.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyBingSearchAPI/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyBingSearchAPI/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyBingSearchAPI/bing_search_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/py_ms_cognitive_image_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/py_ms_cognitive_news_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/py_ms_cognitive_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/py_ms_cognitive_video_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py_ms_cognitive/py_ms_cognitive_search/py_ms_cognitive_web_search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyInstallerUtils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ResizeUtils,py.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WxUtils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RequestUtils.py" afterPath="$PROJECT_DIR$/RequestUtils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,13 +16,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ImageSearchSession.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageSearchSession.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageSearchSession.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="613">
               <caret line="104" column="35" lean-forward="true" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResizeUtils,py.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResizeUtils,py.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxUtils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WxUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyInstallerUtils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PyInstallerUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +93,9 @@
         <option value="$PROJECT_DIR$/pyBingSearchAPI-master/bing_search_api.py" />
         <option value="$PROJECT_DIR$/RequestUtils.py" />
         <option value="$PROJECT_DIR$/ImageSearchSession.py" />
+        <option value="$PROJECT_DIR$/ResizeUtils,py.py" />
+        <option value="$PROJECT_DIR$/WxUtils.py" />
+        <option value="$PROJECT_DIR$/PyInstallerUtils.py" />
       </list>
     </option>
   </component>
@@ -99,11 +127,6 @@
             <path>
               <item name="Luxocator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Luxocator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Luxocator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Luxocator" type="462c0819:PsiDirectoryNode" />
-              <item name="pyBingSearchAPI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,6 +517,36 @@
           <caret line="104" column="35" lean-forward="true" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResizeUtils,py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WxUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyInstallerUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
