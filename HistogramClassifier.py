@@ -74,11 +74,11 @@ class HistogramClassifier(object):
         return bestLabel
 
     # public
-    def classfyFromFile(self, path, queryImageName = None):
+    def classifyFromFile(self, path, queryImageName = None):
         if queryImageName is None:
             queryImageName = path
         queryImage = cv2.imread(path, cv2.IMREAD_COLOR)
-        return self.classfy(queryImage, queryImageName)
+        return self.classify(queryImage, queryImageName)
 
     # public
     def serialize(self, path, compressd = False):
@@ -104,16 +104,94 @@ class HistogramClassifier(object):
 def main():
     classifier = HistogramClassifier()
     classifier.verbose = True
-    classifier.addReferenceFromFile('./images/communal_apartments_01.jpg', 'Stalinist, interior')
-    ###
-    ###
-    ###
-    ###
+
+    # 'Stalinist, interior' reference images
+    classifier.addReferenceFromFile(
+        'images/communal_apartments_01.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/communal_apartments_04.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/communal_apartments_13.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/communal_apartments_19.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/magangue_room.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/moscow_concrete_hall.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/moscow_flat_30.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/moscow_flat_31.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/moscow_flat_36.jpg',
+        'Stalinist, interior')
+    classifier.addReferenceFromFile(
+        'images/moscow_flat_43.jpg',
+        'Stalinist, interior')
+
+    # 'Stalinist, exterior' reference images
+    classifier.addReferenceFromFile(
+        'images/murmansk_exterior.jpg',
+        'Stalinist, exterior')
+    classifier.addReferenceFromFile(
+        'images/norilsk_exterior.jpg',
+        'Stalinist, exterior')
+    classifier.addReferenceFromFile(
+        'images/st_petersburg_exterior.jpg',
+        'Stalinist, exterior')
+
+    # 'Luxury, interior' reference images
+    classifier.addReferenceFromFile(
+        'images/dubai_damac_heights.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/kazan_jacuzzi.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/london_holland_park.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/miami_beach.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/miami_moroccan_inspired.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/panama_casa_del_horno.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/panama_pacific_point.jpg',
+        'Luxury, interior')
+    classifier.addReferenceFromFile(
+        'images/sydney_potts_point.jpg',
+        'Luxury, interior')
+
+    # 'Luxury, exterior' reference images
+    classifier.addReferenceFromFile(
+        'images/buenos_aires_recoleta_exterior.jpg',
+        'Luxury, exterior')
+    classifier.addReferenceFromFile(
+        'images/herradura_exterior.jpg',
+        'Luxury, exterior')
+    classifier.addReferenceFromFile(
+        'images/nuevo_vallarta_grand_maya.jpg',
+        'Luxury, exterior')
+    classifier.addReferenceFromFile(
+        'images/panama_trump_exterior.jpg',
+        'Luxury, exterior')
+
     classifier.serialize('classifier.mat')
     classifier.deserialize('classifier.mat')
-    classifier.classfyFromFile('./images/dubai_damac_heights.jpg')
-    classifier.classfyFromFile('./images/communal_apartments_01.jpg')
-
+    classifier.classifyFromFile('images/dubai_damac_heights.jpg')
+    classifier.classifyFromFile('images/communal_apartments_01.jpg')
 
 
 if __name__ == '__main__':

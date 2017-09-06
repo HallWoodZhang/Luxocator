@@ -54,7 +54,7 @@ class ImageSearchSession(object):
     def search(self, query, numResultsRequested=50, offset=0):
         # Replace the x's with the Primary Account Key of your
         # Microsoft Account.
-        bingKey = '58e9990a3ffa4e87bd528857235dce52'
+        bingKey = 'Input your own key'
 
         self._query = query
         self._numResultsRequested = numResultsRequested
